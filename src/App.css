@@ -1,0 +1,54 @@
+.modal-btn-margin-left {
+  margin: 1.2rem !important;
+}
+
+[type='checkbox'].filled-in.checkbox-blue:checked + span:not(.lever):after {
+  top: 0;
+  width: 20px;
+  height: 20px;
+  border: 2px solid #2196f3;
+  background-color: #2196f3;
+  z-index: 0;
+}
+
+[type='checkbox'].filled-in.tabbed.checkbox-blue:checked:focus
+  + span:not(.lever):after {
+  border-radius: 2px;
+  background-color: #2196f3;
+  border-color: #2196f3;
+}
+
+input[type='text']:not(.browser-default):focus:not([readonly]) {
+  border-bottom: 1px solid #2196f3;
+  -webkit-box-shadow: 0 1px 0 0 #2196f3;
+  box-shadow: 0 1px 0 0 #2196f3;
+}
+
+input[type='text']:not(.browser-default):focus:not([readonly]) + label {
+  color: #26a69a;
+}
+
+input[type='text']:not(.browser-default):focus.valid ~ label {
+  color: #26a69a;
+}
+
+input.valid[type='text']:not(.browser-default),
+input.valid[type='text']:not(.browser-default):focus {
+  border-bottom: 1px solid #2196f3;
+  -webkit-box-shadow: 0 1px 0 0 #2196f3;
+  box-shadow: 0 1px 0 0 #2196f3;
+}
+
+input[type='text']:not(.browser-default):focus:not([readonly]) + label {
+  color: #2196f3;
+}
+
+input:not([type]):focus.valid ~ label,
+input[type='text']:not(.browser-default):focus.valid ~ label {
+  color: #2196f3;
+}
+
+input:not([type]).validate + label,
+input[type='text']:not(.browser-default).validate + label {
+  color: #2196f3;
+}

@@ -1,6 +1,10 @@
 import React, { useState, useEffect } from 'react';
 import M from 'materialize-css/dist/js/materialize.min.js';
-import { updateLog, setLoading, clearCurrent } from '../../actions/logActions';
+import {
+  updateLog,
+  setLoading,
+  clearCurrent,
+} from '../../store/actions/logActions';
 import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
 

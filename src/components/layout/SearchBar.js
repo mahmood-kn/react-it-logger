@@ -1,6 +1,6 @@
 import React, { useRef, useState, useEffect } from 'react';
 import { connect } from 'react-redux';
-import { searchLogs } from '../../actions/logActions';
+import { searchLogs } from '../../store/actions/logActions';
 import PropTypes from 'prop-types';
 
 const SearchBar = ({ searchLogs }) => {

@@ -10,7 +10,7 @@ import EditLogModal from './components/logs/EditLogModal';
 import AddTechModal from './components/techs/AddTechModal';
 import TechsListModal from './components/techs/TechsListModal';
 import { Provider } from 'react-redux';
-import store from './store';
+import store from './store/store';
 
 const App = () => {
   useEffect(() => {

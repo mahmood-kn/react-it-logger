@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import TechSelectOptions from '../techs/TechSelectOptions';
 import M from 'materialize-css/dist/js/materialize.min.js';
 import {
   updateLog,
@@ -66,9 +67,7 @@ const EditLogModal = ({ current, updateLog, setLoading, clearCurrent }) => {
                 className='browser-default'
                 onChange={(e) => setTech(e.target.value)}>
                 <option value='' disabled></option>
-                <option value='John Doe'>John Doe</option>
-                <option value='Sam Smith'>Sam Smith</option>
-                <option value='Sara Wilson'>Sara Wilson</option>
+                <TechSelectOptions />
               </select>
             </div>
           </div>
